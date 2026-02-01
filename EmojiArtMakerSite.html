@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Emoji Art Maker</title>
+<link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+<style>
+body {
+background-color: lightgrey;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the tab */
+.tab {
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background-color: #f1f1f1;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+  background-color: inherit;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
+}
+
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+</style>
+<meta charset="UTF-8">
+<meta name="description" content="Emoji Art Maker Site!">
+<meta name="keywords" content="Emoji Art Maker">
+<meta name="author" content="Miguel.M">
+</head>
+<body>
+<p>🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦</p>
+<h1 style="text-align:center;">Welcome into the Emoji Art Maker Website!</h1>
+<p> The Emoji Art Maker its for making Emoji art, was made in Scratch and also have a converter into HTML in Itch IO!</p>
+<ul style= "font-family:arial, sans serif; background-color:yellow;">
+  <li>	&gt; HTML Converter!</li>
+  <li>	&gt; Save Code!</li>
+  <li>	&gt; Only made in a simple language</li>
+</ul>
+
+<p>🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦</p>
+<!-- Tab links -->
+<div class="tab">
+  <button class="tablinks" onclick="openTab(event, 'Colors Change')">Colors Change</button>
+  <button class="tablinks" onclick="openTab(event, 'Save Info')">Save Button</button>
+  <button class="tablinks" onclick="openTab(event, 'HTML EAMC')">How to convert a Emoji art into a HTML?</button>
+  <button class="tablinks" onclick="openTab(event, 'Access Links')">Products</button>
+</div>
+
+<!-- Tab content -->
+<div id="Colors Change" class="tabcontent">
+  <h3>How to change the colors</h3>
+  <p>Change the Colors pressing the Color Change button on Scratch > Works like changing between Red into Black, the colors will turn into
+</div>
+
+<div id="Save Info" class="tabcontent">
+  <h3>Save Button</h3>
+  <p>See then the Save Button works when you press in will be converting the colors into art, correct? And I will seen of the Itch IO Emoji Converter into HTML, will works!</p>
+</div>
+
+<div id="HTML EAMC" class="tabcontent">
+  <h3>HTML Converter</h3>
+  <p>You click a button and will drop a message to take a TXT File with the Emoji and will be converted in HTML (maked in turbowarp.)</p>
+</div>
+
+<div id="Access Links" class="tabcontent">
+  <h3>Products</h3>
+<button onclick="window.open('https://scratch.mit.edu/projects/1268692881/', '_blank').focus();">Emoji Art Maker</button>
+<button onclick="window.open('https://miguelmassola.itch.io/html-emoji-art-converter', '_blank').focus();">HTML Converter</button>
+</div>
+<script>
+function openTab(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+</script>
+<p> Credits for W3Schools! </p>
+<p>🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦🟪🟥🟧🟨🟩🟦</p>
+</body>
+</html>
